@@ -27,7 +27,7 @@ metadata:
 spec:
   containers:
   - name: docap-e2e-test
-    image: quay.io/[your_quay_account]/docap-nightwatch:latest
+    image: quay.io/roymitchley/docap-nightwatch:latest
     tty: true
     command:
     - cat
