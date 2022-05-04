@@ -9,3 +9,8 @@ Feature: hello-app
     Given I open the hello application with parameter "Roy"
     Then the title is "Home"
     And Hello and Welcome "Roy" is presented
+
+  Scenario: Call hello application with parameter Storm
+    Given I open the hello application with parameter "SmidigStorm"
+    Then the title is "Home"
+    And Hello and Welcome "Storm" is presented

@@ -17,7 +17,6 @@ pipeline {
 
       agent {
         kubernetes {
-          label 'jenkins-test'
           defaultContainer 'docap-e2e-test'
           yaml """
 apiVersion: v1
