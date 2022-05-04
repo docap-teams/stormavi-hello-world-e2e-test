@@ -27,7 +27,7 @@ metadata:
 spec:
   containers:
   - name: docap-e2e-test
-    image: quay.io/roymitchley/docap-nightwatch:latest
+    image: quay.io/[your_quay_account]/docap-nightwatch:latest
     tty: true
     command:
     - cat
@@ -46,7 +46,7 @@ spec:
               path: config.json
         }
       }
-
+"""
       steps {
           // install required packages 
         sh 'npm install'
