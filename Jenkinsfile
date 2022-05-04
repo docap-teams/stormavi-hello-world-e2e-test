@@ -44,9 +44,10 @@ spec:
           items:
             - key: .dockerconfigjson
               path: config.json
+"""
         }
       }
-"""
+
       steps {
           // install required packages 
         sh 'npm install'
